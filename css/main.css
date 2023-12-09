@@ -1,3 +1,5 @@
+/* General */
+
 #mobile-outline {
     outline: 20px solid #333;
     max-width: 412px;
@@ -84,8 +86,10 @@
     max-width: 382px;
  }
 
+ /* Hero Section */
+
 #hero {
-    background:url('../assets/Gourmet3.png') no-repeat;
+    background:url('../images/hero-img.png') no-repeat;
     height: 200px;
 }
 
@@ -138,6 +142,8 @@
     padding-top: 20px;
  }
 
+ /* Menu Heading */
+
  #menu {
     display: flex;
     justify-content: center;
@@ -150,8 +156,9 @@
     margin-bottom: 10px;
  }
 
+ /* Dining Section */
 #dining {
-    background:url('../assets/Gourmet3.png') no-repeat;
+    background:url('../images/dining-room.png') no-repeat;
     height: 200px;
 }
 
@@ -165,21 +172,28 @@
     padding-top: 20px;
  }
 
+ /* Gourmet Section */
+
  #gourmet {
-    background:url('../assets/Gourmet3.png') no-repeat;
+    background:url('../images/gourmet-dining.png') no-repeat;
     height: 200px;
 }
+
+/* Patio Section */
 
 #patio {
-    background:url('../assets/Gourmet3.png') no-repeat;
+    background:url('../images/patio-services.png') no-repeat;
     height: 200px;
 }
+
+/* Drinks Section */
 
 #drinks {
-    background:url('../assets/Gourmet3.png') no-repeat;
+    background:url('../images/drinks.png') no-repeat;
     height: 200px;
 }
 
+/* Specials Heading */
 
 #specials {
     display: flex;
@@ -193,18 +207,27 @@
     margin-bottom: 10px;
  }
 
- #chef-ron {
+
+ /* Chef Ronnie Section */
+
+ #chef-ron-img {
+    background:url('../images/Chefs-delight.png') no-repeat;
+    height: 200px;
  }
 
  #chef-ron h2 {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold; 
+    margin-top: 10px;
  }
 
  #chef-ron p {
     margin-top: 10px;
     font-size: 12px;
+    line-height: 1.5;
 }
+
+/* Contacts */
 
 #contact-hero-con {
     background: url(../images/contact-hero.jpg) no-repeat;
@@ -234,8 +257,6 @@
     margin-bottom: 25px;
  }
  
- 
- 
  #contact-hero-form form {
     display: flex;
     flex-direction: column;
@@ -255,8 +276,6 @@
     height: 250px;
  }
  
- 
- 
  #contact-hero-form input[type="submit"] {
     padding: 12px 28px;
     background: #9a2018;
@@ -272,6 +291,8 @@
     border-radius: 0;
  }
  
+ /* Footer */
+
  #footer-hero {
     background-image: url(../images/footer.jpg);
      background-repeat: no-repeat;
